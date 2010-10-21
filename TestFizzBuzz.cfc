@@ -3,26 +3,50 @@
 	<cfset variables.obj = createObject("component","fizzbuzz") />
 </cffunction>
 
-<!--- numbers_divisible_by_3_return_Fizz --->
+<!--- 
+3_returns_fizz
+numbers_divisible_by_3_return_Fizz 
+--->
 
 
-<!--- numbers_divisible_by_5_return_Buzz--->
+<!---
+5_returns_fizz 
+numbers_divisible_by_5_return_buzz
+--->
 
 
-<!--- numbers_divisible_by_both_3_and_5_return_FizzBuzz--->
+<!--- 
+15_returns_fizzbuzz
+numbers_divisible_by_both_3_and_5_return_fizzbuzz
+--->
 
 
-<!--- numbers_that_contain_3_will_return_Fizz--->
+<!--- 
+31_returns_fizz
+numbers_that_contain_3_will_return_fizz
+--->
 
 
-<!--- numbers_that_contain_5_will_return_Buzz--->
+<!---
+52_returns_buzz
+numbers_that_contain_5_will_return_buzz
+--->
 
 
-<!--- numbers_that_contain_both_3_and_5_will_return_FizzBuzz--->
+<!---
+53_returns_fizzbuzz
+numbers_that_contain_both_3_and_5_will_return_fizzbuzz
+--->
 
 
-<!--- numbers_that_don't_meet_any_criteria_return_themselves --->
+<!--- 
+numbers_that_don't_meet_any_criteria_return_themselves 
+--->
 
 
-<!--- letters_throw_an_exception --->
+<!--- 
+letters_throw_an_exception 
+--->
+
+
 </cfcomponent>
